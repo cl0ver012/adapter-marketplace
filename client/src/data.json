@@ -1,0 +1,96 @@
+{
+  "baseModels": [
+    {
+      "_id": "openllama-3b-v2-1",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "bert",
+      "name": "BERT"
+    },
+    {
+      "_id": "gpt-3",
+      "name": "GPT-3"
+    },
+    {
+      "_id": "t5",
+      "name": "T5"
+    },
+    {
+      "_id": "xlnet",
+      "name": "XLNet"
+    },
+    {
+      "_id": "transformer-xl",
+      "name": "Transformer-XL"
+    },
+    {
+      "_id": "bart",
+      "name": "BART"
+    },
+    {
+      "_id": "electra",
+      "name": "ELECTRA"
+    },
+    {
+      "_id": "albert",
+      "name": "ALBERT"
+    },
+    {
+      "_id": "deberta",
+      "name": "DeBERTa"
+    }
+  ],
+  "methods": [
+    {
+      "_id": "lora",
+      "name": "LoRA"
+    },
+    {
+      "_id": "qlora",
+      "name": "QLoRA"
+    },
+    {
+      "_id": "lora+",
+      "name": "LoRA+"
+    },
+    {
+      "_id": "vera",
+      "name": "VeRA"
+    },
+    {
+      "_id": "lora_fa",
+      "name": "LoRA-FA"
+    },
+    {
+      "_id": "adalora",
+      "name": "AdaLoRA"
+    },
+    {
+      "_id": "dora",
+      "name": "DoRA"
+    },
+    {
+      "_id": "delta_lora",
+      "name": "Delta-LoRA"
+    }
+  ],
+  "resources": [
+    {
+      "_id": "gpu-a100",
+      "name": "GPU A100"
+    },
+    {
+      "_id": "gpu-rtx",
+      "name": "GPU RTX"
+    },
+    {
+      "_id": "gpu-h100",
+      "name": "GPU H100"
+    },
+    {
+      "_id": "gpu-ada",
+      "name": "GPU Ada"
+    }
+  ]
+}
