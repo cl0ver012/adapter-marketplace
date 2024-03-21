@@ -6,7 +6,9 @@ import polkadotIcon from '../../assets/images/polkadot-new-dot-logo.svg';
 
 function PolkadotWalletButton() {
     const [extensionAvailable, setExtensionAvailable] = useState();
-
+    const [isAddress, setIsAddress] = useState(false);
+    const [address, setAddress] = useState('');
+    
     const connectWallet = async () => {
         if (typeof window !== 'undefined') {
             setExtensionAvailable(true);
@@ -24,11 +26,8 @@ function PolkadotWalletButton() {
                 const polkadotAPI = await ApiPromise.create({ provider });
                 const address = accounts[0].address;
                 await polkadotAPI.query.system.account(address);
-                console.log(address);
-                alert(`Connected Successfully !
-
-account address: ${address}
-        `)
+                setIsAddress(true);
+                setAddress(address);
             } catch (error) {
                 console.error('Error', error);
             }
@@ -43,7 +42,19 @@ account address: ${address}
                 text-white font-sans font-semibold px-2 py-2 w-full flex justify-center items-center cursor-pointer' onClick={() => connectWallet()}>
                 <img className='transition-all w-[30px] cursor-pointer' src={polkadotIcon} alt="My Site Logo" />
             </div>
-
+            {isAddress && (
+                <Modal
+                    open={isAddress}
+                    closeIcon={null}
+                    onCancel={() =>setIsAddress(false)}
+                    width={'500px'}
+                    footer={null}
+                >
+                    <div className="p-8 flex justify-center items-center flex-col gap-4 rounded-3xl">
+                        <p className="mt-[0px] ">Connect Successfully.<br/>address: {address}</p>
+                    </div>
+                </Modal>
+            )}
             {extensionAvailable === false && (
                 <Modal
                     open={!extensionAvailable}
