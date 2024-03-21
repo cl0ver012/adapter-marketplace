@@ -128,7 +128,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="h-[90vh] w-[100vw] overflow-y-auto dark:bg-neutral-900">
+    <div className="h-[90vh] w-[100vw] overflow-y-auto dark:bg-neutral-700">
       <Container className="min-h-full bg-gray-100 dark:bg-neutral-900">
         <Row>
           <Col xs={24}>
@@ -156,18 +156,28 @@ const Home: React.FC = () => {
                     width={36}
                     height={36}
                     // onClick={() => navigate("/select-model")}
-                    className='dark:text-white'
+                    className="dark:text-white"
                   />
-                  <span className="leading-9 text-lg dark:text-white">Subscribe</span>
+                  <span className="leading-9 text-lg dark:text-white">
+                    Subscribe
+                  </span>
                 </button>
               )}
             </div>
           </Col>
-          <Col md={24} lg={17} xl={18} xxl={19} className="border-t-2 border-b">
+          <Col
+            md={24}
+            lg={17}
+            xl={18}
+            xxl={19}
+            className="border-t-2 border-b dark:border-neutral-800"
+          >
             <Row className="p-8 gap-y-4">
               <Col lg={24} xl={12}>
                 <div className="w-full flex gap-2">
-                  <span className="leading-[44px] w-40 dark:text-white">Base Model:</span>
+                  <span className="leading-[44px] w-40 dark:text-white">
+                    Base Model:
+                  </span>
                   <div className="bg-gray-300 dark:text-white dark:bg-neutral-800 px-4 py-2 text-lg rounded-lg cursor-pointer hover:opacity-80 hover:shadow-xl">
                     {
                       baseModels.find((model) => model._id === selectedModel)
@@ -191,7 +201,9 @@ const Home: React.FC = () => {
               </Col>
               <Col lg={24} xl={12}>
                 <div className="w-full flex gap-2">
-                  <span className="leading-[44px] w-40 dark:text-white">Resource:</span>
+                  <span className="leading-[44px] w-40 dark:text-white">
+                    Resource:
+                  </span>
                   <div className="bg-gray-300 dark:text-white dark:bg-neutral-800 px-4 py-2 text-lg rounded-lg cursor-pointer hover:opacity-80 hover:shadow-xl">
                     {resources.find(
                       (resource) => resource._id === selectedResource,
@@ -234,7 +246,7 @@ const Home: React.FC = () => {
             lg={7}
             xl={6}
             xxl={5}
-            className="lg:border-t-2 lg:border-l border-b dark:text-white"
+            className="lg:border-t-2 lg:border-l border-b dark:border-neutral-800 dark:text-white"
           >
             <Row className="p-8">
               {resources.map((resource) => (
@@ -257,9 +269,11 @@ const Home: React.FC = () => {
               ))}
             </Row>
           </Col>
-          <Col xs={24} className="border-b">
+          <Col xs={24} className="border-b dark:border-neutral-800">
             <div className="w-full p-8 flex flex-col gap-4">
-              <h2 className="text-xl dark:text-white">Test the fine-tuned model</h2>
+              <h2 className="text-xl dark:text-white">
+                Test the fine-tuned model
+              </h2>
               <div className="w-full flex flex-col">
                 <div className="w-full relative">
                   <textarea
@@ -282,7 +296,7 @@ const Home: React.FC = () => {
                     />
                   </button>
                 </div>
-                <div className="w-full max-h-64 overflow-y-auto rounded-lg p-4">
+                <div className="w-full max-h-96 overflow-y-auto rounded-lg p-4">
                   {chatHistory
                     .filter((m) => m.role !== "system")
                     .map((message, index) => (
@@ -298,20 +312,20 @@ const Home: React.FC = () => {
                         {message.role === "user" && (
                           <Icon
                             icon="basil:user-solid"
-                            className="w-6 h-6 ml-2"
+                            className="w-6 h-6 ml-2 icon-with-theme"
                           />
                         )}
                         {message.role === "assistant" && (
                           <Icon
                             icon="fluent:bot-sparkle-24-regular"
-                            className="w-6 h-6 mr-2"
+                            className="w-6 h-6 mr-2 icon-with-theme"
                           />
                         )}
                         <div
-                          className={`p-2 rounded-lg ${
+                          className={`p-2 rounded-lg dark:text-white ${
                             message.role === "assistant"
-                              ? "bg-blue-100"
-                              : "bg-green-100"
+                              ? "bg-blue-100 dark:bg-neutral-800"
+                              : "bg-green-100 dark:bg-neutral-800"
                           }`}
                         >
                           <p>{message.content}</p>
@@ -322,7 +336,6 @@ const Home: React.FC = () => {
                 <button
                   type="button"
                   className="w-full h-full dark:bg-neutral-800 dark:text-white dark:ring-neutral-800 bg-gray-300 px-4 py-2 text-lg rounded-lg cursor-pointer outline-none ring-1 ring-gray-400 focus:ring-gray-500 hover:opacity-80 hover:shadow-xl"
-                  
                 >
                   Clear Chat History
                 </button>

@@ -33,7 +33,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="h-[90vh] w-[100vw] overflow-y-auto dark:bg-neutral-900">
+    <div className="h-[90vh] w-[100vw] overflow-y-auto dark:bg-neutral-700">
       <Container className="min-h-full bg-gray-100 dark:bg-neutral-900">
         <Row className="min-h-full">
           <Col xs={24}>
@@ -41,7 +41,13 @@ const Home: React.FC = () => {
               Select Base Model and Fine-Turning Method
             </h1>
           </Col>
-          <Col md={24} lg={17} xl={18} xxl={19} className="border-t-2 border-b">
+          <Col
+            md={24}
+            lg={17}
+            xl={18}
+            xxl={19}
+            className="border-t-2 border-b dark:border-neutral-800"
+          >
             <Row className="px-8">
               {baseModels.map((model, modelIndex) => (
                 <Col
@@ -81,7 +87,7 @@ const Home: React.FC = () => {
             lg={7}
             xl={6}
             xxl={5}
-            className="lg:border-t-2 lg:border-l border-b"
+            className="lg:border-t-2 lg:border-l border-b dark:border-neutral-800"
           >
             <Row className="p-8">
               {methods.map((method) => (
@@ -96,7 +102,9 @@ const Home: React.FC = () => {
                       }
                       className="w-6 h-10 m-2"
                     />
-                    <span className="leading-9 text-xl m-2 dark:text-white">{method.name}</span>
+                    <span className="leading-9 text-xl m-2 dark:text-white">
+                      {method.name}
+                    </span>
                   </label>
                 </Col>
               ))}
