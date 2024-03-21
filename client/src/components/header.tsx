@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { logout } from "../redux/features/auth/authSlice";
 import Switcher from "../utils/themeSwitcher";
+import PolkadotWalletButton from "./polkadot-wallet-button/index";
+import MetamaskWalletButton from './metamask-wallet-button'
 
 const Header: React.FC = () => {
   const dispatch = useDispatch();
@@ -45,6 +47,12 @@ const Header: React.FC = () => {
         {/* Toggle darkmode */}
         <div className="flex mr-5">
           <Switcher />
+        </div>
+        <div className=' mr-5'>
+          <MetamaskWalletButton />
+        </div>
+        <div className=' mr-5'>
+          <PolkadotWalletButton />
         </div>
         {/* Search Box */}
         <div className="relative">

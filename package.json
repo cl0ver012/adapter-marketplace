@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.12.4",
+    "@polkadot/extension-dapp": "^0.46.9"
   }
 }
