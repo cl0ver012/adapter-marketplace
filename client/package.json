@@ -13,7 +13,9 @@
   "dependencies": {
     "@iconify/react": "^4.1.1",
     "@reduxjs/toolkit": "^2.2.1",
+    "@types/crypto-js": "^4.2.2",
     "axios": "^1.6.7",
+    "crypto-js": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-grid-system": "^8.2.0",

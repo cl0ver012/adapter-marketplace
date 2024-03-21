@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { Icon } from "@iconify/react";
 import { setUser } from "../../redux/features/auth/authSlice";
+import Switcher from "../../utils/themeSwitcher";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -41,8 +42,11 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h2 className="text-2xl font-bold">Welcome to Our Marketplace</h2>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-neutral-900">
+      <div className='fixed right-[100px] top-[50px]'>
+          <Switcher />
+      </div>
+      <h2 className="text-2xl font-bold dark:text-white">Welcome to Our Marketplace</h2>
       <div className="mt-8 flex items-center justify-center w-16 h-16 bg-gray-400 rounded-full cursor-pointer">
         <Icon icon="ooui:user-active" width="32" height="32" />
       </div>

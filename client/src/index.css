@@ -34,7 +34,10 @@ code {
   background: #d1d5db;
 }
 
-/* * {
-  scrollbar-width: thin;
-  scrollbar-color: #e5e7eb transparent;
-} */
+svg.icon-with-theme path {
+  stroke: #000 !important;
+}
+
+.dark svg.icon-with-theme path {
+  stroke: #ffffff !important;
+}

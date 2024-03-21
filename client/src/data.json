@@ -92,5 +92,267 @@
       "_id": "gpu-ada",
       "name": "GPU Ada"
     }
+  ],
+  "bots": [
+    {
+      "botName": "Alfa",
+      "botId": "001",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Alfa",
+      "botType": "Character",
+      "chatType": "Voice",
+      "bio": "Leading the digital frontier, I'm Alfa, your trailblazing companion in discovery. Where are we off to?",
+      "totalSubscribers": 1200,
+      "currentSubscribers": 1150
+    },
+    {
+      "botName": "Bravo",
+      "botId": "002",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Bravo",
+      "botType": "Entertainment",
+      "chatType": "Text",
+      "bio": "Dive into a world of endless amusement. I'm Bravo, here to entertain and illuminate your text adventures!",
+      "totalSubscribers": 1340,
+      "currentSubscribers": 1290
+    },
+    {
+      "botName": "Charlie",
+      "botId": "003",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Charlie",
+      "botType": "Creative",
+      "chatType": "Picture",
+      "bio": "Crafting visual stories, one pixel at a time. I'm Charlie - your creative spark amidst a sea of images.",
+      "totalSubscribers": 1500,
+      "currentSubscribers": 1455
+    },
+    {
+      "botName": "Delta",
+      "botId": "004",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Delta",
+      "botType": "Programming",
+      "chatType": "Voice",
+      "bio": "Slicing through the code, I'm Delta. Your navigator in the maze of programming. Ready for a session?",
+      "totalSubscribers": 1100,
+      "currentSubscribers": 1050
+    },
+    {
+      "botName": "Echo",
+      "botId": "005",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Echo",
+      "botType": "Assistant",
+      "chatType": "Text",
+      "bio": "Your voice, echoed in text. I'm Echo, your personal assistant, transforming your thoughts into words.",
+      "totalSubscribers": 980,
+      "currentSubscribers": 950
+    },
+    {
+      "botName": "Foxtrot",
+      "botId": "006",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Foxtrot",
+      "botType": "Character",
+      "chatType": "Voice",
+      "bio": "Dancing through dialogues, I'm Foxtrot. An articulate companion in your auditory journey. Shall we dance?",
+      "totalSubscribers": 1500,
+      "currentSubscribers": 1475
+    },
+    {
+      "botName": "Golf",
+      "botId": "007",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Golf",
+      "botType": "Sports",
+      "chatType": "Text",
+      "bio": "Scoring under par with every message. I'm Golf, bringing the precision and calm of the green to our chats.",
+      "totalSubscribers": 630,
+      "currentSubscribers": 600
+    },
+    {
+      "botName": "Hotel",
+      "botId": "008",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Hotel",
+      "botType": "Hospitality",
+      "chatType": "Voice",
+      "bio": "Your reservation to relaxation has been confirmed. I'm Hotel, your guide to comfort and carefree experiences.",
+      "totalSubscribers": 850,
+      "currentSubscribers": 800
+    },
+    {
+      "botName": "India",
+      "botId": "009",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=India",
+      "botType": "Learning",
+      "chatType": "Text",
+      "bio": "Embark on a journey of knowledge with me, India. Discover cultures, histories, and wisdom in our text explorations.",
+      "totalSubscribers": 2000,
+      "currentSubscribers": 1900
+    },
+    {
+      "botName": "Juliet",
+      "botId": "010",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Juliet",
+      "botType": "Character",
+      "chatType": "Voice",
+      "bio": "Your digital confidante, whispering tales of love and adventure. I'm Juliet, ready to captivate your heart.",
+      "totalSubscribers": 1250,
+      "currentSubscribers": 1200
+    },
+    {
+      "botName": "Kilo",
+      "botId": "011",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Kilo",
+      "botType": "Health",
+      "chatType": "Text",
+      "bio": "A dose of health wisdom in every message. I'm Kilo, here to keep your wellbeing in optimal balance.",
+      "totalSubscribers": 900,
+      "currentSubscribers": 870
+    },
+    {
+      "botName": "Lima",
+      "botId": "012",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Lima",
+      "botType": "Travel",
+      "chatType": "Picture",
+      "bio": "Capturing the world, one destination at a time. I'm Lima, your scenic guide to breathtaking vistas and hidden gems.",
+      "totalSubscribers": 1700,
+      "currentSubscribers": 1650
+    },
+    {
+      "botName": "Mike",
+      "botId": "013",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Mike",
+      "botType": "Music",
+      "chatType": "Voice",
+      "bio": "Composing life's soundtrack with every note. I'm Mike, your maestro in the melodic journey of sound.",
+      "totalSubscribers": 2200,
+      "currentSubscribers": 2100
+    },
+    {
+      "botName": "November",
+      "botId": "014",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=November",
+      "botType": "Character",
+      "chatType": "Text",
+      "bio": "Narrating tales of mystery and anticipation. I'm November, a master storyteller at your text's beck and call.",
+      "totalSubscribers": 1350,
+      "currentSubscribers": 1300
+    },
+    {
+      "botName": "Oscar",
+      "botId": "015",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Oscar",
+      "botType": "Cinema",
+      "chatType": "Video",
+      "bio": "Directing your digital scene with flair and drama. I'm Oscar, your guide to cinematic masterpieces and behind-the-scenes secrets.",
+      "totalSubscribers": 1750,
+      "currentSubscribers": 1700
+    },
+    {
+      "botName": "Papa",
+      "botId": "016",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Papa",
+      "botType": "Food",
+      "chatType": "Text",
+      "bio": "Whipping up delicious dialogues, bite by bite. I'm Papa, your culinary companion in the quest for flavors.",
+      "totalSubscribers": 1950,
+      "currentSubscribers": 1900
+    },
+    {
+      "botName": "Quebec",
+      "botId": "017",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Quebec",
+      "botType": "Language",
+      "chatType": "Text",
+      "bio": "Mastering tongues with ease and eloquence. I'm Quebec, your linguistic ally in conquering communication barriers.",
+      "totalSubscribers": 875,
+      "currentSubscribers": 840
+    },
+    {
+      "botName": "Romeo",
+      "botId": "018",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Romeo",
+      "botType": "Character",
+      "chatType": "Voice",
+      "bio": "Bringing stories of love and passion to life. I'm Romeo, your romantic voice in the digital world's serenade.",
+      "totalSubscribers": 1300,
+      "currentSubscribers": 1250
+    },
+    {
+      "botName": "Sierra",
+      "botId": "019",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Sierra",
+      "botType": "Adventure",
+      "chatType": "Picture",
+      "bio": "Charting unknown territories, snapshot by snapshot. I'm Sierra, your visual guide to adventures untold.",
+      "totalSubscribers": 1600,
+      "currentSubscribers": 1550
+    },
+    {
+      "botName": "Tango",
+      "botId": "020",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Tango",
+      "botType": "Dance",
+      "chatType": "Video",
+      "bio": "Step by step, into the rhythm of life. I'm Tango, your partner in the dance of digital expression.",
+      "totalSubscribers": 750,
+      "currentSubscribers": 720
+    },
+    {
+      "botName": "Uniform",
+      "botId": "021",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Uniform",
+      "botType": "Fashion",
+      "chatType": "Picture",
+      "bio": "Tailoring your digital wardrobe with each pixel. I'm Uniform, your stylist in the fabric of the virtual world.",
+      "totalSubscribers": 1100,
+      "currentSubscribers": 1070
+    },
+    {
+      "botName": "Victor",
+      "botId": "022",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Victor",
+      "botType": "Gaming",
+      "chatType": "Text",
+      "bio": "Leveling up one message at a time. I'm Victor, your faithful guide in the quest for gaming glory.",
+      "totalSubscribers": 1980,
+      "currentSubscribers": 1940
+    },
+    {
+      "botName": "Whiskey",
+      "botId": "023",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Whiskey",
+      "botType": "Beverage",
+      "chatType": "Text",
+      "bio": "Distilling conversations, aged to perfection. I'm Whiskey, serving spirited chats and mellow moments.",
+      "totalSubscribers": 680,
+      "currentSubscribers": 650
+    },
+    {
+      "botName": "X-ray",
+      "botId": "024",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=X-ray",
+      "botType": "Science",
+      "chatType": "Picture",
+      "bio": "Seeing beyond the surface, revealing the hidden. I'm X-ray, your insight into the wonders of science.",
+      "totalSubscribers": 1430,
+      "currentSubscribers": 1390
+    },
+    {
+      "botName": "Yankee",
+      "botId": "025",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Yankee",
+      "botType": "Travel",
+      "chatType": "Audio",
+      "bio": "Exploring sonic landscapes, from the familiar to the unknown. I'm Yankee, your auditory escort through the world's wonders.",
+      "totalSubscribers": 990,
+      "currentSubscribers": 960
+    },
+    {
+      "botName": "Zulu",
+      "botId": "026",
+      "avatarUrl": "https://via.placeholder.com/150/0000FF/808080?Text=Zulu",
+      "botType": "History",
+      "chatType": "Text",
+      "bio": "Unraveling the threads of time with each character. I'm Zulu, your historian, guiding you through the annals of history.",
+      "totalSubscribers": 1250,
+      "currentSubscribers": 1200
+    }
   ]
 }
