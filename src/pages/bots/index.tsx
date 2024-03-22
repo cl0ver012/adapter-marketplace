@@ -30,7 +30,7 @@ const Bots = () => {
         <Row className="min-h-full">
           <Col xs={24}>
             <h1 className="p-8 text-3xl dark:text-white">
-              Select a Bot to Chat
+              Select a Adapter to Chat
             </h1>
           </Col>
           <Col xs={24} className="border-t-2 border-b dark:border-neutral-800">
